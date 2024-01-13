@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.myContainer{
+  max-width: 720px;
+  height: auto;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 40px;
+  border-radius: 16px;
+  background: white;
+  z-index: 99;
+}
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  background: rgb(241, 240, 242);
+}
+
+h2{
+  color: #DA4A54;
+}
+img{
+  width: 40px;
+  height: 40px;
+}
+img:hover{
+    transform: scale(1.2);
+    transition-duration: 0.6s;
+}
+label{
+    font-size: 17px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+.admin-container{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.admin-container:hover{
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transform: scale(1.05);
+  transition-duration: 0.8s;
+}
+
+
+
+
+table{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
